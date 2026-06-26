@@ -31,7 +31,13 @@ Uses HTML5, CSS3, JavaScript, Bootstrap 5.3.2 and jQuery 3.7.1.
 To preview, use the command `python3 -m http.server` and press `Enter`.  Check that all user stories have been met.
 
 - HTML
-    - [W3C]
+    - No errors other than warning were found through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fderektypist.github.io%2Fspellcaster%2Findex.html)
+
+- CSS
+    - No errors were found through the official [(Jigsaw) Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fderektypist.github.io%2Fspellcaster%2Fcss%2Fstyle.css)
+
+- Link Checker
+    - A report is available through the official [W3C Link Checker](https://validator.w3.org/checklink?uri=https%3A%2F%2Fderektypist.github.io%2Fspellcaster&hide_type=all&depth=&check=Check)
 
 ## Deployment
 
