@@ -13,7 +13,7 @@ Enter the letters (f, l, i, w, h or s) in upper or lower case.  You will see the
 - As a user, if I enter a character other than f, l, i, w, h or s in upper or lower case, I expect the error message to be displayed.
 - As a user, if I enter `fihwl`, I should get `33`.
 - As a user, if I enter `lwswfi`, I should get `45`.
-- As a user, if I enter `wislhfi`, I should get `37`.
+- As a user, if I enter `wislhfl`, I should get `37`.
 - As a user, if I enter `sihwlih`, I should get `50`.
 - As a user, if I enter `wishlfihwslwifihl`, I should get `101`.
 - As a user, if I click on the `Clear` button, I expect the information to be empty.
