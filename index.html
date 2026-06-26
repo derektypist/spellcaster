@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,34 @@
     <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- Set Up Header -->
+    <header class="container-fluid text-center">
+        <h1>Spellcaster</h1>
+    </header>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <div class="form-floating mb-3">
+                <input id="mytext" class="form-control" title="Enter text" placeholder="Enter text">
+                <label for="mytext">Text</label>
+            </div>
+
+            <div class="d-grid gap-2 d-flex justify-content-center">
+                <button type="reset" id="clearBtn" class="btn btn-warning">Clear</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Display Results -->
+    <div id="results"></div>
+
+    <!-- Load Scripts -->
+    <script src="libs/jquery/jquery-3.7.1.min.js">
+    </script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
